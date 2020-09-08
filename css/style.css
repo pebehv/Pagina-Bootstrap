@@ -1,0 +1,33 @@
+.jumbotron {
+  background-color: #FFFE00;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 2px;
+  font-family: Times;
+}
+
+h1 {
+  font-size: 450%;
+}
+
+footer {
+  padding: 1px 10px 0px 10px;
+  background-color: gray;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.id-ListH {
+  flex: 1 250px;
+}
+
+.btn-reserva {
+  width: 100%;
+  border-radius: 0px;
+}
+
+#carosuelControls {
+  margin-bottom: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */

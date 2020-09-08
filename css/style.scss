@@ -1,0 +1,52 @@
+$ColorJum: #FFFE00;
+
+$Amarillo: #FFFF00;
+$Rojo: #FF0000;
+$Verde: #008000;
+
+
+@mixin margenes($top, $bottom){
+	margin-top: $top;
+	margin-bottom: $bottom;
+}
+
+@mixin padding($tp, $right, $botom, $left){
+	padding:$tp $right $botom $left;
+
+}
+
+.jumbotron{
+	background-color: $ColorJum;
+	color: black;
+	@include margenes(50px, 2px);
+
+	
+	
+	font-family: Times;
+	
+}
+h1{
+	font-size: 450%;
+}
+
+footer{
+	
+	@include padding(1px, 10px, 0px, 10px);
+	background-color: gray;
+	@include margenes(10px,0px);
+
+}
+.id-ListH{
+	flex: 1 250px;
+	
+
+}
+
+.btn-reserva{
+	width: 100%;
+	border-radius: 0px;
+	
+}
+#carosuelControls{
+	margin-bottom: 2%;
+}
